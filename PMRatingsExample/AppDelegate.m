@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DetailViewController.h"
+#import <PMRatings/PMRatings.h>
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -22,6 +23,13 @@
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
     splitViewController.delegate = self;
+    
+    
+    PMRatingsString *string = [[PMRatingsString alloc] initWithAppID:@"406128109" minimunRatingCount:30];
+    [string ratingStringWithCompletionHandler:^(NSString *result) {
+        NSLog(@"%@",result);
+    }];
+    
     return YES;
 }
 
