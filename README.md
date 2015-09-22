@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-	<a href="#overview">Overview</a> &bull;
-	<a href="#example-app">Example App</a> &bull;
-	<a href="#installation">Installation</a> &bull;
-	<a href="#at-a-glance">At a Glance</a> &bull; 
+	<a href="#overview">Overview</a> &#9733;
+	<a href="#example-app">Example App</a> &#9733;
+	<a href="#installation">Installation</a> &#9733;
+	<a href="#at-a-glance">At a Glance</a> &#9733; 
 	<a href="#documentation">Documentation</a> 
 </p>
 
