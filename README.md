@@ -10,6 +10,7 @@ A drop-in button or label to _politely_ encourage users to review your app on th
 
 The problem with how iOS apps ask [for](https://david-smith.org/blog/2013/12/16/degradation-or-aspiration/) [ratings](http://www.macworld.com/article/1159659/app_developers_behavior.html) [has](http://daringfireball.net/linked/2013/12/05/eff-your-review) [been](http://www.loopinsight.com/2014/02/04/begging-for-app-ratings/) [long](http://dancounsell.com/articles/prompting-for-app-reviews) [discussed](http://www.apptentive.com/blog/ratings-prompts-dont-have-to-suck-inside-mobile-apps/) [online](http://www.marco.org/2011/05/05/apps-prompting-for-reviews). Marco outlines in his post ["How Overcast asks for reviews"](http://www.marco.org/2014/12/05/how-overcast-asks-for-reviews) a less intrusive way of asking for ratings. I implemented this is my app [NCIS: Gibbs' Rules](http://rules.patmurray.co) to much success.  
 
+#### Briefly
 PMRatings can be used in two main ways:  
 - As a `UITableViewCell` subclass for adding an Overcast style button to your settings screen
 - To return a `NSString` to be used in your own controls.
