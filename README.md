@@ -20,6 +20,11 @@ PMRatings can be used in both locale independent or locale focused mode. Locale 
 #### Current State
 Current version is pre-0.1. Much work is still to happen. I would not reccomend using this in any app (shipping or not)
 
+## Example App
+<p align="center">
+  <img src="Screenshots/example_app_icon.png" width="175px" />
+</p>
+
 ## Installation
 TBC
 
