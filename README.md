@@ -2,6 +2,15 @@
 	<img src="Screenshots/header.png" alt="Header" width="500px" />
 </p>
 
+<p align="center">
+	<a href="#overview">Overview</a> &bull;
+	<a href="#example-app">Example App</a> &bull;
+	<a href="#installation">Installation</a> &bull;
+	<a href="#at-a-glance">At a Glance</a> &bull; 
+	<a href="#documentation">Documentation</a> 
+</p>
+
+
 A drop-in button or label to _politely_ encourage users to review your app on the App Store. Created by [Pat Murray](https://twitter.com/_patmurray) and inspired by [Marco Arment](http://www.marco.org)'s [Overcast](https://overcast.fm/) app:  
 
 <p align="center">
@@ -10,6 +19,11 @@ A drop-in button or label to _politely_ encourage users to review your app on th
 
 The problem with how iOS apps ask [for](https://david-smith.org/blog/2013/12/16/degradation-or-aspiration/) [ratings](http://www.macworld.com/article/1159659/app_developers_behavior.html) [has](http://daringfireball.net/linked/2013/12/05/eff-your-review) [been](http://www.loopinsight.com/2014/02/04/begging-for-app-ratings/) [long](http://dancounsell.com/articles/prompting-for-app-reviews) [discussed](http://www.apptentive.com/blog/ratings-prompts-dont-have-to-suck-inside-mobile-apps/) [online](http://www.marco.org/2011/05/05/apps-prompting-for-reviews). Marco outlines in his post ["How Overcast asks for reviews"](http://www.marco.org/2014/12/05/how-overcast-asks-for-reviews) a less intrusive way of asking for ratings. I implemented this is my app [NCIS: Gibbs' Rules](http://rules.patmurray.co) to much success.  
 
+<br />
+[![Twitter: @_patmurray](https://img.shields.io/badge/contact-@__patmurray-blue.svg?style=flat)](https://twitter.com/_patmurray)
+[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](/LICENSE)
+
+## Overview
 #### Briefly
 PMRatings can be used in two main ways:  
 - As a `UITableViewCell` subclass for adding an Overcast style button to your settings screen
@@ -28,13 +42,16 @@ Current version is pre-0.1. Much work is still to happen. I would not reccomend 
 ## Installation
 TBC
 
-## At a Glace
+## At a Glance
+TBC
+
+## Documentation
 TBC
 
 # License
 The MIT License (MIT)
 
-Copyright (c) 2015 Patrick Murray 
+Copyright © 2015 Patrick Murray 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
