@@ -468,6 +468,7 @@
 				CD684EAA1BB1566B00A1B21B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDE3C0B91BB1450D000E1FE7 /* Build configuration list for PBXProject "PMRatings" */ = {
 			isa = XCConfigurationList;
