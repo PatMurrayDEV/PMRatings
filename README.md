@@ -1,4 +1,4 @@
-# PMRatingsButton
+# PMRatings
 A drop-in button or label to _politely_ encourage users to review your app on the App Store. Inspired by [Marco Arment](http://www.marco.org)'s [Overcast](https://overcast.fm/) app. 
 
 <p align="center">
