@@ -16,13 +16,13 @@ PMRatings can be used in two main ways:
 
 PMRatings can be used in both locale independent or locale focused mode. Locale independent gets ratings from the US store, locale focused gets ratings from the user's local store. PMRatings caches the most up to date ratings count in `NSUserDefaults`.
 
-# Current State
+#### Current State
 Current version is pre-0.1. Much work is still to happen. I would not reccomend using this in any app (shipping or not)
 
-# Installation
+## Installation
 TBC
 
-# At a Glace
+## At a Glace
 TBC
 
 # License
