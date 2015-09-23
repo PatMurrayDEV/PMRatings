@@ -12,12 +12,13 @@
 @interface PMRatingsString : NSObject
 
 /**
- <#description#>
- @param <#parameter#>
- @returns <#retval#>
- @exception <#throws#>
+ Initialize a new intance of PMRatingsString.
+ @param NSString iTunes Store App ID
+ @param int Minimun rating count to include "only" before
+ @returns PMRatingsString object
  */
 - (id) initWithAppID:(NSString *)aAppID minimunRatingCount:(int)aNum;
+
 
 /**
  <#description#>
@@ -25,6 +26,7 @@
  @returns <#retval#>
  @exception <#throws#>
  */
-- (void) ratingStringWithCompletionHandler:(void (^)(NSString *result))completionHandler;
+- (void) ratingStringWithCacheValue:(void (^)(NSString *result))cacheValue updated:(void (^)(NSString *result))updated;
+
 
 @end

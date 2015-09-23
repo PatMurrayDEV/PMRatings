@@ -25,10 +25,12 @@
     splitViewController.delegate = self;
     
     
-    PMRatingsString *string = [[PMRatingsString alloc] initWithAppID:@"406128109" minimunRatingCount:30];
-    [string ratingStringWithCompletionHandler:^(NSString *result) {
-        NSLog(@"%@",result);
-    }];
+//    PMRatingsString *string = [[PMRatingsString alloc] initWithAppID:@"406128109" minimunRatingCount:30];
+//    [string ratingStringWithCacheValue:^(NSString *result) {
+//        NSLog(@"%@", result);
+//    } updated:^(NSString *result) {
+//        NSLog(@"%@", result);
+//    }];
     
     return YES;
 }

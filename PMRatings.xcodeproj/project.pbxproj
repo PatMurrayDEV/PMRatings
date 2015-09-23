@@ -17,10 +17,10 @@
 		CD684EA21BB1566B00A1B21B /* PMRatings.h in Headers */ = {isa = PBXBuildFile; fileRef = CD684EA11BB1566B00A1B21B /* PMRatings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD684EA61BB1566B00A1B21B /* PMRatings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD684E9F1BB1566B00A1B21B /* PMRatings.framework */; };
 		CD684EA71BB1566B00A1B21B /* PMRatings.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD684E9F1BB1566B00A1B21B /* PMRatings.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CD684EAE1BB15C3B00A1B21B /* PMRatingsDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3A1EE71BB14EB90064DF64 /* PMRatingsDownloader.h */; settings = {ASSET_TAGS = (); }; };
-		CD684EAF1BB15C3E00A1B21B /* PMRatingsDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3A1EE81BB14EB90064DF64 /* PMRatingsDownloader.m */; settings = {ASSET_TAGS = (); }; };
 		CD684EB31BB15FFB00A1B21B /* PMRatingsString.h in Headers */ = {isa = PBXBuildFile; fileRef = CD684EB11BB15FFB00A1B21B /* PMRatingsString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD684EB41BB15FFB00A1B21B /* PMRatingsString.m in Sources */ = {isa = PBXBuildFile; fileRef = CD684EB21BB15FFB00A1B21B /* PMRatingsString.m */; settings = {ASSET_TAGS = (); }; };
+		CD95ED481BB291E100C18F10 /* PMRatingsTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CD95ED461BB291E100C18F10 /* PMRatingsTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD95ED491BB291E100C18F10 /* PMRatingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD95ED471BB291E100C18F10 /* PMRatingsTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,13 +60,13 @@
 		CD3A1EDE1BB1459E0064DF64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD3A1EE11BB1459E0064DF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD3A1EE31BB1459E0064DF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD3A1EE71BB14EB90064DF64 /* PMRatingsDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMRatingsDownloader.h; sourceTree = "<group>"; };
-		CD3A1EE81BB14EB90064DF64 /* PMRatingsDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRatingsDownloader.m; sourceTree = "<group>"; };
 		CD684E9F1BB1566B00A1B21B /* PMRatings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMRatings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD684EA11BB1566B00A1B21B /* PMRatings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMRatings.h; sourceTree = "<group>"; };
 		CD684EA31BB1566B00A1B21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD684EB11BB15FFB00A1B21B /* PMRatingsString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMRatingsString.h; sourceTree = "<group>"; };
 		CD684EB21BB15FFB00A1B21B /* PMRatingsString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRatingsString.m; sourceTree = "<group>"; };
+		CD95ED461BB291E100C18F10 /* PMRatingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMRatingsTableViewCell.h; sourceTree = "<group>"; };
+		CD95ED471BB291E100C18F10 /* PMRatingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRatingsTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +120,8 @@
 				CD684EA11BB1566B00A1B21B /* PMRatings.h */,
 				CD684EB11BB15FFB00A1B21B /* PMRatingsString.h */,
 				CD684EB21BB15FFB00A1B21B /* PMRatingsString.m */,
-				CD3A1EE71BB14EB90064DF64 /* PMRatingsDownloader.h */,
-				CD3A1EE81BB14EB90064DF64 /* PMRatingsDownloader.m */,
+				CD95ED461BB291E100C18F10 /* PMRatingsTableViewCell.h */,
+				CD95ED471BB291E100C18F10 /* PMRatingsTableViewCell.m */,
 				CD684EA31BB1566B00A1B21B /* Info.plist */,
 			);
 			path = PMRatings;
@@ -153,8 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD684EA21BB1566B00A1B21B /* PMRatings.h in Headers */,
+				CD95ED481BB291E100C18F10 /* PMRatingsTableViewCell.h in Headers */,
 				CD684EB31BB15FFB00A1B21B /* PMRatingsString.h in Headers */,
-				CD684EAE1BB15C3B00A1B21B /* PMRatingsDownloader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD684EB41BB15FFB00A1B21B /* PMRatingsString.m in Sources */,
-				CD684EAF1BB15C3E00A1B21B /* PMRatingsDownloader.m in Sources */,
+				CD95ED491BB291E100C18F10 /* PMRatingsTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
