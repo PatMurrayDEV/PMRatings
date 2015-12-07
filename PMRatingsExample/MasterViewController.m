@@ -57,9 +57,19 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    //UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-
-    PMRatingsTableViewCell *cell = [[PMRatingsTableViewCell alloc] initWithAppID:@"406128109" minimunRatingCount:100 refreshPeriod:400];
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+//
+//    PMRatingsString *PMstring = [[PMRatingsString alloc] initWithAppID:@"406128109" minimunRatingCount:100];
+//    [PMstring ratingStringWithCacheValue:^(NSString *result) {
+//        cell.textLabel.text = result;
+//    } updated:^(NSString *result) {
+//        cell.textLabel.text = result;
+//    }];
+//
+    
+    PMRatingsTableViewCell * cell = [[PMRatingsTableViewCell alloc] initWithAppID:@"324684580"
+                                                               minimunRatingCount:100
+                                                                    refreshPeriod:400];
     
     
     return cell;
