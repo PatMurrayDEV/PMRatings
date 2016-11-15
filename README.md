@@ -1,3 +1,5 @@
+# This is long dead. Please don't use it. ¯\_🙃_/¯ 
+
 <p align="center">
 	<img src="Screenshots/header.png" alt="Header" width="500px" />
 </p>
